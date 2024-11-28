@@ -1,0 +1,103 @@
+.nav-item{
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #0a1a30;
+
+}
+
+.container-header-end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+}
+
+.telefone{
+    background-color: #f43127;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.telefone_numero{
+    font-weight: bold;
+    display: block;
+}
+
+.shopping{
+    background-color: #fcb302;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.menu{
+    width: 100%;
+    height: 150px;
+    background-color: #f43127;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu > div{
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.menu-item{
+    background-color: #c9141a;
+    color: white;
+    border-radius: 50%;
+    padding: 30px;
+    width: 70px!important;
+    height: 70px !important;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.principal{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.principal-titulo{
+    background-color: #f43127;
+    color: white;
+    padding: 5px;
+    width: 70%;
+}
+
+.principal > div > h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+ul > li{
+    list-style-type:none;
+}
+
+ul{
+    padding-inline-start: 0px;
+}
+
+.principal-botao{
+
+    color: #FFF;
+    background-color: #fcb302;
+    border: none;
+    height: 50px;
+    line-height: 30px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px
+}
